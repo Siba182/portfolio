@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint"
-        content="width=device-width, initial-scale=1.0">
-        <title>Simple Portfolio</title>
-        <link rel="stylesheet" href ="style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel ="stylesheet">
-    </head>
-    <body>
-        <header class="header">
-            <a href="#home" class="logo">
-                Sibabalwe <span>Mngxuma</span>
-            </a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Sibabalwe <span>Mngxuma</span>
+        </a>
 
-            <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-menu' id="menu-icon"></i>
 
-            <nav class="navbar">
-                <a href="#home" class="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-        
-       <section class="home" id="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hi</h3>
             <h1>It's Sibabalwe Mngxuma</h1>
             <h3>I'm a <span>FullStack Developer</span></h3>
-            
 
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/sibabalwe-mngxuma-10a0b413b" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/sibabalwe-mngxuma-10a0b413b" target="_blank" aria-label="LinkedIn Profile">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
             </div>
             <a href="cv-page.html" class="btn">Download CV</a>
         </div>
 
         <div class="home-img">
-            <img src="picture.jpg" alt="">
+            <img src="picture.jpg" alt="Sibabalwe Mngxuma">
         </div>
     </section>
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="picture.jpg" alt="">
+            <img src="picture.jpg" alt="Sibabalwe Mngxuma">
         </div>
 
         <div class="about-content">
@@ -54,8 +53,7 @@
             <p>With two years of experience as a software developer, I have honed my skills across various programming languages and technologies. 
                 My background includes developing scalable applications, optimizing code, and delivering high-quality software solutions. 
                 I have also spent six months as a technical support agent, where I developed strong problem-solving skills and the ability to communicate complex technical issues clearly. 
-                Additionally, I am in twelve-month graduate program that provides me with advanced insights into data analysis, cloud computing practices.</p>
-               
+                Additionally, I am in a twelve-month graduate program that provides me with advanced insights into data analysis and cloud computing practices.</p>
         </div>
     </section>
 
@@ -80,7 +78,7 @@
             </div>
 
             <div class="services-box">
-                <i class='bx bxs-bar-chart-alt-2' ></i>
+                <i class='bx bxs-bar-chart-alt-2'></i>
                 <h3>Business Intelligence</h3>
                 <p>In the realm of Business Intelligence, I provide insights through data analysis and visualization. 
                     My approach includes creating detailed reports, dashboards, and interactive visualizations that help businesses make informed decisions. 
@@ -93,11 +91,11 @@
                 <p>My data analysis services are designed to help you extract meaningful insights from your data. 
                     I specialize in data cleaning, statistical analysis, and predictive modeling. 
                     By applying advanced analytical techniques, I provide you with clear, actionable insights that can guide decision-making and improve business outcomes. 
-                    Whether you need help with data interpretation or developing analytical models, I offer solutions tailored to your needs</p>
+                    Whether you need help with data interpretation or developing analytical models, I offer solutions tailored to your needs.</p>
             </div>
 
             <div class="services-box">
-                <i class='bx bxs-report' ></i>
+                <i class='bx bxs-report'></i>
                 <h3>Documentation</h3>
                 <p>Effective documentation is crucial for maintaining clarity and consistency in projects. 
                     I offer comprehensive documentation services, including technical writing, user manuals, and project reports. 
@@ -107,7 +105,6 @@
         </div>
     </section>
 
-    
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
@@ -116,45 +113,34 @@
                 <input type="text" name="name" placeholder="Full Name" required>
                 <input type="email" name="email" placeholder="Email" required>
             </div>
-        
+
             <div class="input-box">
-                <input type="number" name="phone" placeholder="Phone Number" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
                 <input type="text" name="subject" placeholder="Subject" required>
             </div>
-        
+
             <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
-        
     </section>
-    
-    <footer class="footer">
 
+    <footer class="footer">
         <div class="social">
-            <a href="https://www.linkedin.com/in/sibabalwe-mngxuma-10a0b413b" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.linkedin.com/in/sibabalwe-mngxuma-10a0b413b" target="_blank" aria-label="LinkedIn Profile">
+                <i class='bx bxl-linkedin'></i>
+            </a>
         </div>
 
         <ul class="list">
-            <li>
-                <a href="faq.html">FAQ</a>
-            </li>
-            <li>
-                <a href="#services">Services</a>
-            </li>
-            <li>
-                <a href="#about">About Me</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-            <li>
-                <a href="privacy-policy.html">Privacy Policy</a>
-            </li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
         </ul>
-        <p class="copyright">© 2024 Sibabalwe | All Rights Reserved </p>
+        <p class="copyright">© 2024 Sibabalwe | All Rights Reserved</p>
     </footer>
- 
 
-        <script src="script.js"></script>
-    </body>
+    <script src="script.js"></script>
+</body>
 </html>
