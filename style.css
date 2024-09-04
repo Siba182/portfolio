@@ -395,3 +395,36 @@ span{
     margin-bottom: 1rem;
 }
 
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #f8f9fa; /* Background color */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Shadow for better visibility */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+/* Style for the "Back to Home" button */
+.btn-back {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color:rgb(255, 34, 0); /* Button color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-back:hover {
+    background-color: rgb(255, 34, 0); /* Darker color on hover */
+}
+
+/* Main content adjustment */
+main {
+    margin-top: 60px; /* Adjust for fixed header height */
+    padding: 20px;
+}
